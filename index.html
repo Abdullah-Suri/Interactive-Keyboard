@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <!-- Tailwind Css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen flex flex-col justify-center items-center bg-black max-sm:!w-[900px]">
+        <!-- Main Keyboard Div  -->
+        <div class="flex flex-col gap-2 uppercase font-medium ">
+            <div class="text-center mb-8">
+                <h1 class="text-white text-5xl font-bold grad-text tracking-[6px]">Eyes On The Screen</h1>
+                <h1 class=" text-2xl text-orange-300 pt-2 tracking-[3px]">Hands On The Keyboard</h1>
+            </div>
+            <!-- 1st Row  -->
+            <ul class="flex items-center  justify-evenly row">
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">Esc</li>
+                <li id="1" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">1 
+                    <sup class="left-px -top-2">&#33;</sup> 
+                </li>
+                <li id="2" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">2 
+                    <sup class="left-px -top-2">&#64;</sup>
+                </li>
+                <li id="3" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">3
+                    <sup class="left-px -top-2">&#35;</sup>
+                </li>
+                <li id="4" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">4
+                    <sup class="left-px -top-2">&#36;</sup>
+                </li>
+                <li id="5" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">5
+                    <sup class="left-px -top-2">&#37;</sup>
+                </li>
+                <li id="6" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">6
+                    <sup class="left-px -top-2">&#94;</sup>
+                </li>
+                <li id="7" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">7
+                    <sup class="left-px -top-2">&#38;</sup>
+                </li>
+                <li id="8" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">8
+                    <sup class="left-px -top-2">&#42;</sup>
+                </li>
+                <li id="9" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">9
+                    <sup class="left-px -top-2">&#40;</sup>
+                </li>
+                <li id="0" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">0
+                    <sup class="left-px -top-2">&#41;</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">-
+                    <sup class="left-px -top-3">__</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">=
+                    <sup class="left-px -top-2">+</sup>
+                </li>
+                <li class="border-2 border-red-600 bg-red-600 rounded-md m-1 py-3 px-4">Backspace</li>
+            </ul>
+            <!-- 2nd Row  -->
+            <ul class="flex items-center justify-evenly row">
+                <li class="px-5 m-1 py-3 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">Tab</li>
+                <li id="Q" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">q</li>
+                <li id="W" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">w</li>
+                <li id="E" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">e</li>
+                <li id="R" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">r</li>
+                <li id="T" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">t</li>
+                <li id="Y" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">y</li>
+                <li id="U" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">u</li>
+                <li id="I" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">i</li>
+                <li id="O" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">o</li>
+                <li id="P" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">p</li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">[
+                    <sup class="left-px -top-2">&#123;</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">]
+                    <sup class="left-px -top-2">&#125;</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">\
+                    <sup class="left-px -top-2">&#124;</sup>
+                </li>
+            </ul>
+            <!-- 3rd Row  -->
+            <ul class="flex items-center justify-evenly row">
+                <li class="px-6 m-1 py-3 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">Caps</li>
+                <li id="A" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">a</li>
+                <li id="S" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">s</li>
+                <li id="D" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">d</li>
+                <li id="F" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">f</li>
+                <li id="G" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">g</li>
+                <li id="H" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">h</li>
+                <li id="J" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">j</li>
+                <li id="K" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">k</li>
+                <li id="L" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">l</li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">;
+                    <sup class="left-px -top-2">:</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">'
+                    <sup class="left-px -top-2">"</sup>
+                </li>
+                <li class="px-6 m-1 py-3 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">Enter</li>
+            </ul>
+            <!-- 4th Row  -->
+            <ul class="flex items-center justify-evenly row">
+                <li class="px-12 m-1 py-3 border-2 border-red-600 bg-red-600 rounded-md">Shift</li>
+                <li id="Z" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">z</li>
+                <li id="X" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">x</li>
+                <li id="C" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">c</li>
+                <li id="V" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">v</li>
+                <li id="B" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-yellow-100 bg-yellow-100">b</li>
+                <li id="N" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-lime-50 bg-lime-50">n</li>
+                <li id="M" class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-200 bg-amber-200">m</li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-amber-300 bg-amber-300">,
+                    <sup class="left-px -top-2">&lt;</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-orange-400 bg-orange-400">.
+                    <sup class="left-px -top-2">&gt;</sup>
+                </li>
+                <li class="w-12 h-12 p-1 m-1 rounded-md flex items-center justify-center border-2 border-red-600 bg-red-600">/
+                    <sup class="left-px -top-2">?</sup>
+                </li>
+                <li class="px-12 m-1 py-3 border-2 border-red-600 bg-red-600 rounded-md">Shift</li>
+            </ul>
+        </div>
+        <h4 class="mt-4 text-xl text-orange-400">Made By Abdullah</h4>
+</body>
+
+<script src="./script.js"></script>
+</html>
